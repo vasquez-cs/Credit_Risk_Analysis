@@ -23,30 +23,30 @@ Finally we compared two new machine learning models that reduce bias, BalancedRa
   * High Risk recall score
     * 0.62  
 # SMOTE
-![image]()
+![image](https://user-images.githubusercontent.com/107224632/194458313-98fa523b-bd4f-4c6e-a5a7-c76cf7ca52d4.png)
 *Figure 2a: SMOTE Balanced accuracy score* 
   * Balanced accuracy score
-![image]()
+![image](https://user-images.githubusercontent.com/107224632/194458346-9b4fc501-445b-482e-a677-896a36d62ee0.png)
 *Figure 2b: SMOTE imbalanced classification report* 
   * High Risk precision score
     * 0.01 
   * High Risk recall score
     * 0.62  
 * ClusterCentroids
-![image]()
+![image](https://user-images.githubusercontent.com/107224632/194458459-94bbbc1f-b4a7-438d-adec-e1e3de0033b1.png)
 *Figure 3a: ClusterCentroids Balanced accuracy score* 
   * Balanced accuracy score
-![image]()
+![image](https://user-images.githubusercontent.com/107224632/194458510-782af651-2008-4c4c-a15f-49f56eddb6ef.png)
 *Figure 3b: ClusterCentroids imbalanced classification report* 
   * High Risk precision score
     * 0.01 
   * High Risk recall score
-    * 0.62  
+    * 0.61  
 * over- and undersampling using the SMOTEENN algorithm
-![image]()
+![image](https://user-images.githubusercontent.com/107224632/194458646-98b45510-52b0-464b-af3e-4c1ce08c892c.png)
 *Figure 4a: SMOTEENN Balanced accuracy score* 
   * Balanced accuracy score
-![image]()
+![image](https://user-images.githubusercontent.com/107224632/194458729-3ac8f4c6-d394-44cc-8fe5-5fff8a637ff6.png)
 *Figure 4b: SMOTEENN imbalanced classification report* 
   * High Risk precision score
     * 0.01 
@@ -57,16 +57,21 @@ Finally we compared two new machine learning models that reduce bias, BalancedRa
 *Figure 5a: BalancedRandomForestClassifier Balanced accuracy score* 
   * Balanced accuracy score
 ![image]()
-*Figure 5b: BalancedRandomForestClassifier imbalanced classification report* 
-  * High Risk precision score
-    * 0.01 
-  * High Risk recall score
-    * 0.62  
-* EasyEnsembleClassifier
-![image]()
+*Figure 5b: BalancedRandomForestClassifier imbalanced classification report*
+![image](https://user-images.githubusercontent.com/107224632/194458935-7c79504e-a4cf-43cf-8616-197f4b46c3ff.png)
 *Figure 6a: EasyEnsembleClassifier Balanced accuracy score* 
   * Balanced accuracy score
-![image]()
+![image](https://user-images.githubusercontent.com/107224632/194459064-c693f725-3961-4896-83f7-8af9de87fc24.png)
+*Figure 6b: EasyEnsembleClassifier imbalanced classification report* 
+  * High Risk precision score
+    * 0.03 
+  * High Risk recall score
+    * 0.70
+* EasyEnsembleClassifier
+![image](https://user-images.githubusercontent.com/107224632/194459180-b38c7d81-d6c3-4ae7-b1dc-9af8b328d208.png)
+*Figure 6a: EasyEnsembleClassifier Balanced accuracy score* 
+  * Balanced accuracy score
+![image](https://user-images.githubusercontent.com/107224632/194459228-db3a3583-3bb9-4220-abac-c986981313f3.png)
 *Figure 6b: EasyEnsembleClassifier imbalanced classification report* 
   * High Risk precision score
     * 0.01 
